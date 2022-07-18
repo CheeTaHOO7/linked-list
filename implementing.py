@@ -11,7 +11,21 @@ class LinkedList():
     if self.head = None:
       self.head = Node(value)
     else:
-      current_node = self.head
-      while current_node.next:
-        current_node = current_node.next
-      current_node.next = Node(value)
+      current = self.head
+      while current.next:
+        current = current.next
+      current.next = Node(value)
+  
+  def show(self):
+    current = self.head
+    while curren.next:
+      print(current.data)
+      current = curren.next
+      
+  def length(self):
+    lenght = 0
+    current = self.head
+    while current.next:
+      length += 1
+      current = current.next
+   print(length)
