@@ -29,3 +29,13 @@ class LinkedList():
       length += 1
       current = current.next
    print(length)
+  
+  def element(self, position):
+    i = 0
+    current = self.head
+    while current.next:
+      if i == position:
+        return element.data
+      current = current.next
+      i += 1
+    return None 
